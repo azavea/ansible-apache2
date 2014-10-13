@@ -2,6 +2,11 @@
 - name: Install Apache
   apt: pkg=apache2={{ apache_version }} state=present
 
+- name: Configure Apache
+  template: src=ports.conf.j2 dest=/etc/apache2/ports.conf
+  notify:
+    - Restart Apache
+
 - name: Delete default site
   command: a2dissite 000-default
   register: a2dissite
