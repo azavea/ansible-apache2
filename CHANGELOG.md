@@ -1,3 +1,8 @@
+## 0.2.2
+
+- Required minimum Ansible version is now 1.8.
+- Aapche version uses wildcards for minor version changes
+
 ## 0.2.1
 
 - Optionally remove default site stub HTML files.
