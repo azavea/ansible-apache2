@@ -1,6 +1,6 @@
 ---
 - name: Install Apache
-  apt: pkg=apache2={{ apache_version }} state=present
+  apt: pkg="apache2={{ apache_version }}" state=present
 
 - name: Configure Apache
   template: src=ports.conf.j2 dest=/etc/apache2/ports.conf
