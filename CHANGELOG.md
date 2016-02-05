@@ -1,3 +1,7 @@
+## 0.2.3
+
+- Add backward compatible support for Ansible 2.0.
+
 ## 0.2.2
 
 - Required minimum Ansible version is now 1.8.
