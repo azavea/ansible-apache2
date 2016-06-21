@@ -1,3 +1,7 @@
+## 0.2.4
+
+- Tighten loose version glob to avoid issues with backported packages.
+
 ## 0.2.3
 
 - Add backward compatible support for Ansible 2.0.
